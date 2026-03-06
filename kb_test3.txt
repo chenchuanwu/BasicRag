@@ -1,0 +1,20 @@
+Remote Work Policy - Effective March 2024
+
+1. ELIGIBILITY
+   All full-time employees with 6+ months tenure are eligible for remote work up to 3 days per week. Department heads must approve schedules by the 25th of the preceding month.
+
+2. EQUIPMENT & SECURITY
+   - Company provides: laptop, monitor, keyboard, and ergonomic chair
+   - Employees must use VPN for all work-related activities
+   - Home network must have WPA3 encryption minimum
+   - Confidential documents must be stored on encrypted drives only
+
+3. AVAILABILITY REQUIREMENTS
+   - Core hours: 10:00 AM - 3:00 PM in your local time zone
+   - Must respond to messages within 30 minutes during core hours
+   - Video on for all meetings with 3+ participants
+
+4. PERFORMANCE EXPECTATIONS
+   Remote employees are held to the same KPIs as in-office staff. Monthly check-ins with managers are mandatory. Failure to meet deliverables may result in revocation of remote privileges.
+
+For questions, contact HR at hr@company.com.

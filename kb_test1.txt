@@ -1,0 +1,23 @@
+VectorStore Configuration Guide
+
+VectorStores are used to store and retrieve embeddings for semantic search. In modern Python 3 implementations, use the simplified syntax:
+
+class VectorStores:
+    def __init__(self, dimension=1536):
+        self.dimension = dimension
+        self.store = {}
+
+    def add(self, id: str, vector: list):
+        if len(vector) != self.dimension:
+            raise ValueError(f"Vector must have {self.dimension} dimensions")
+        self.store[id] = vector
+
+    def search(self, query_vector: list, top_k=5):
+        # Calculate cosine similarity
+        results = []
+        for id, vector in self.store.items():
+            similarity = self._cosine_sim(query_vector, vector)
+            results.append((id, similarity))
+        return sorted(results, key=lambda x: x[1], reverse=True)[:top_k]
+
+Note: In modern Python 3 code, writing class VectorStores: is sufficient and more common, but class VectorStores(object): is still valid and seen in legacy or compatibility-focused codebases.
